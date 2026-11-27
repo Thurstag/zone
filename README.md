@@ -1,4 +1,6 @@
-# Zone
+<p align="center">
+    <img src=".github/images/logo.png" style="display: block; margin: auto" alt="Zone">
+</p>
 
 A single file library parsing `.ghost` files of Assetto Corsa. `zone.py` is compatible with Python 3.3.5 (used by Assetto Corsa).
 
