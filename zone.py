@@ -189,7 +189,7 @@ def unpack_unsigned_int(reader):
 
 def unpack_string(reader):
     size = unpack_unsigned_int(reader)
-    return reader.read(size).decode(encoding="ascii", errors="replace")
+    return reader.read(size).decode(encoding="utf-8", errors="replace")
 
 
 def unpack_4x4_matrix(reader):
